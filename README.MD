@@ -28,3 +28,8 @@ Caso não encontrada a cidade é retornado uma mensagem dizendo que a "Cidade n�
 Foi utilizado o Docker para a criação de imagem do tipo node:alpine.
 
 Para subir a imagem utilizar o comando 'docker run -p 3333:3333 -d score/dockernode'.
+
+## Versões
+
+Node: 14.15.0
+Docker: 19.03.8
