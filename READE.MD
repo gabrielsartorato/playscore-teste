@@ -22,3 +22,9 @@ Assim que recebida a requisição é chamada a função requestWeather() para qu
 Após o retorno da temperatura da cidade é feita uma requisição para Shazam API para que assiim possa ser retornada a lista de música conforme a temperatura.
 
 Caso não encontrada a cidade é retornado uma mensagem dizendo que a "Cidade não foi encontrada".
+
+## Container
+
+Foi utilizado o Docker para a criação de imagem do tipo node:alpine.
+
+Para subir a imagem utilizar o comando 'docker run -p 3333:3333 -d score/dockernode'.
